@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h3 {
+    @apply mb-8 text-4xl text-dark-grayish-blue md:text-5xl;
+  }
+}
+
 body {
   background-image: url("../assets/images/bg-header-desktop.png");
   background-repeat: no-repeat;
@@ -11,7 +17,13 @@ body {
 @media (max-width: 576px) {
   body {
     background-image: url("../assets/images/bg-header-mobile.png");
-    background-repeat: no-repeat;
-    background-size: contain;
   }
+}
+
+.section-container {
+  @apply mx-auto mb-40 max-w-6xl px-10 text-center;
+}
+
+.button {
+  @apply rounded-full p-4 px-8 shadow-lg duration-200 hover:opacity-80;
 }
