@@ -4,11 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webpack App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Webpack Tailwind Landing App</title>
   </head>
   <body>
-    <section class="flex justify-center translate-y-1/2 h-screen">
-      <h1 class="text-4xl text-blue-700">My Webpack + Tailwind App!</h1>
+    <section id="hero">
+      <div class="mx-auto mb-40 max-w-6xl px-10 text-center">
+        <img src="/assets/images/logo.svg" alt="logo" class="mx-auto my-16" />
+        <h3 class="mb-8 text-4xl text-dark-grayish-blue md:text-5xl">
+          A history everything you copy
+        </h3>
+        <p class="mx-auto mb-10 max-w-3xl text-2xl text-grayish-blue">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum labore
+          aspernatur expedita modi quis! Quos est ea tempore quod ad totam,
+          blanditiis id accusamus consequatur perferendis adipisci ipsam
+          praesentium impedit.
+        </p>
+        <div
+          class="flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4"
+        >
+          <a
+            href="#"
+            class="rounded-full bg-strong-cyan p-4 px-8 shadow-lg duration-200 hover:opacity-80"
+            >Download for iOS</a
+          >
+          <a
+            href="#"
+            class="rounded-full bg-light-blue p-4 px-8 shadow-lg duration-200 hover:opacity-80"
+            >Download for Mac</a
+          >
+        </div>
+      </div>
     </section>
 
     <script src="bundle.js"></script>
