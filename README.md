@@ -59,7 +59,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repo](https://github.com/evk11/simple-landing-tailwind)
+- Solution URL: [Github repo](https://github.com/eugenekulikou/simple-landing-tailwind)
 - Live Site URL: [Netlify](https://animated-dragon-72d0ec.netlify.app/)
 
 ## My process
@@ -114,5 +114,5 @@ to be used as inline utility class
 
 ## Author
 
-- Frontend Mentor - [@evk11](https://www.frontendmentor.io/profile/evk11)
+- Frontend Mentor - [@eugenekulikou](https://www.frontendmentor.io/profile/eugenekulikou)
 - LinkedIn - [@eugenekulikou](https://www.linkedin.com/in/eugenekulikou/)
